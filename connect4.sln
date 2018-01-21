@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "connect4.lib", "connect4.lib\connect4.lib.csproj", "{38F8B52F-8DBB-49F4-94C8-11CAFB8AAC82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "connect4.app", "connect4.app\connect4.app.csproj", "{7D17DC0B-FA66-406D-8D97-F51356292675}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "connect4.app", "connect4.app\connect4.app.csproj", "{7D17DC0B-FA66-406D-8D97-F51356292675}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "connect4.test", "connect4.test\connect4.test.csproj", "{1481C5E4-CBC2-42FB-A9E7-A47E01823BD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7D17DC0B-FA66-406D-8D97-F51356292675}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D17DC0B-FA66-406D-8D97-F51356292675}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D17DC0B-FA66-406D-8D97-F51356292675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1481C5E4-CBC2-42FB-A9E7-A47E01823BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1481C5E4-CBC2-42FB-A9E7-A47E01823BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1481C5E4-CBC2-42FB-A9E7-A47E01823BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1481C5E4-CBC2-42FB-A9E7-A47E01823BD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
