@@ -10,6 +10,7 @@ namespace connect4.app
             var board1 = new Board();
             board1.States[37] = BoardCellState.Blue;
             board1.States[38] = BoardCellState.Red;
+            board1.States[41] = BoardCellState.Blue;
 
             Console.WriteLine(board1);
 

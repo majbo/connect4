@@ -15,7 +15,6 @@ namespace connect4.lib
 
         public BoardCellState[] States { get => _states; }
 
-
         public override string ToString()
         {
             string s = "";
@@ -23,12 +22,12 @@ namespace connect4.lib
             for (int row = 0; row < 6; row++)
             {
                 s += Environment.NewLine;
-                s += "--------------";
+                s += "---------------";
                 s += Environment.NewLine;
                 for (int col = 0; col < 7; col++)
                 {
                     index = row * 7 + col;
-                    switch(_states[index])
+                    switch (_states[index])
                     {
                         case BoardCellState.Empty:
                             s += "| ";
@@ -41,11 +40,10 @@ namespace connect4.lib
                             break;
                     }
                 }
-      
-
+                s += "|";
             }
             s += Environment.NewLine;
-            s += "--------------";
+            s += "---------------";
 
             return s;
         }
