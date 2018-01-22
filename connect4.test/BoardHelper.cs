@@ -21,7 +21,7 @@ namespace connect4.test
             }
         }
 
-        public static void Set(this Board board, BoardCellState state, IEnumerable<int> indices)
+        public static void Set(this Board board, BoardCellState state, params int[] indices)
         {
             foreach (int index in indices)
             {

@@ -28,6 +28,19 @@ namespace connect4.lib
             }
         }
 
+        public bool PutCoint(BoardCellState state, int columnToPut)
+        {
+            for (int i = columnToPut + 35; i >= columnToPut; i -= 7)
+            {
+                if (_states[i] == BoardCellState.Empty)
+                {
+                    _states[i] = state;
+                    return true;
+                }
+            }
+            return false;
+        }
+
         public IEnumerable<IEnumerable<BoardCellState>> GetColumns()
         {
             for (int i = 0; i < Columns; i++)

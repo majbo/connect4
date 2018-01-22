@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Xunit;
 
-namespace connect4.test
+namespace connect4.test.AnalyzerTest
 {
     public class HasWonTest
     {
