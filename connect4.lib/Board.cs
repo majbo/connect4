@@ -3,13 +3,6 @@ using System.Collections.Generic;
 
 namespace connect4.lib
 {
-    public enum BoardCellState
-    {
-        Empty,
-        Blue,
-        Red
-    }
-
     public class Board
     {
         public const int Size = 42;

@@ -2,7 +2,7 @@
 
 namespace connect4.lib
 {
-    public class Analyzer
+    public class Analyzer : IAnalyzer
     {
         private Board _board;
 
